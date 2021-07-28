@@ -1,0 +1,179 @@
+
+.body{
+    font-family: 'Lato', sans-serif;
+
+}
+
+.container{
+    margin:0 auto;
+}
+
+.navbar{
+    background: #373c44;
+}
+
+.nav-link{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    
+    
+}
+
+.nav-link:hover{
+     background: color #c6b2c3; 
+    }
+
+.nav-header{
+    margin-left: 100px;
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+.btn-join{
+    font-size:16px;
+    color: white;
+    font-weight: 700;
+    padding: 5px 30px;
+}
+
+.btn-join:hover{
+    background-color: gray;
+}
+
+.first-title{
+    font-size: 78px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+.slide p{
+    font-size: 30px;
+    color: white;
+    font-weight:400 ;
+}
+
+.second-title{
+    font-size: 78px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+.third-title{
+    font-size: 42px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn-slide{
+    color: white;
+    font-size: 16px;
+    text-decoration: uppercase ;
+    padding:5px 30px;
+}
+
+.works{
+    font-size: 40px;
+    color: #3c2839;
+    font-weight: 400;
+    text-align:  center;
+    margin: 100px 0;
+}
+
+
+.about-us{
+    background-image: url(../images/pic.jpg);
+    background-size: cover;
+
+}
+
+.about-us h5{
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-top:50px;
+}
+
+.about-us p{
+    font-size: 16px;
+    color: white;
+    font-size: 400;
+    text-align: center;
+}
+
+.about-us img{
+    padding-left: 45px;
+}
+
+.card-bodyy p{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+
+}
+
+@media screen and (max-width: 400px) {
+    .testmonials h3{
+      font-size: 10px;
+    }
+  }
+
+.testmonials h3{
+    font-size: 40px;
+    color: #3c2839;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.testmonials p{
+    font-size: 20px;
+    color:  #626262;
+    font-weight: 400;
+    text-align: center;
+}
+
+.testmonials h5{
+    font-size: 20px;
+    color: #3c2839;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.subscribe{
+    background: #2a63c1;
+}
+
+.subscribe h5{
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+    padding:70px 0;
+    text-align: center;
+}
+
+.social-icons{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+
+.footer{
+    background:  #373c44;
+    font-size: 14px;
+    color: #aeb0b2;
+    font-weight: 400;
+    text-align: center;
+}

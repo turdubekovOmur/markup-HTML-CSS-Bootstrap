@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Final work</title>
+</head>
+
+<body>
+    <!-- header -->
+
+    <header class="header bg-dark">
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+                <a class="navbar-brand" href="#">
+                    <h1 class="logo">.ONETOWN</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+
+                <div class="collapse navbar-collapse nav-header" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-uppercase">
+                        <a class="nav-link active" href="#">Our works <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">about us</a>
+                        <a class="nav-link" href="#">testimonials</a>
+                        <a class="nav-link" href="#">subcribe</a>
+                    </div>
+                </div>
+                <form action="">
+                    <button type="button" class="btn btn-outline-light btn-join" data-toggle="modal"
+                        data-target="#staticBackdrop">JOIN <img src="./images/arrow-join.png">
+                    </button>
+
+
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Singn in/up</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Enter email">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                                email with anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1"> Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                                placeholder="Password">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1"> Check Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                                placeholder=" ReEnter your Password please">
+                                        </div>
+
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Send</button>
+                                    </form>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- slider -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/slide.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="first-title">FREE PSD TEMPLATE</h5>
+                    <p>Fully responsive website mockup PSD template. Free for commercial & presonal use. Portfolio &
+                        Contact Pages included. </p>
+                    <button type="button" class="btn btn-outline-secondary mb-5 mt-5 btn-slide">SEE WORKS</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/slide.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="second-title">creatively</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button type="button" class="btn btn-outline-secondary mb-5 mt-5 btn-slide">SEE WORKS</button>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/slide.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="third-title">professional</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <button type="button" class="btn btn-outline-secondary mb-5 mt-5 btn-slide">SEE WORKS</button>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Our works -->
+    <div class="container">
+        <div class="our-works mb-5">
+            <h5 class="works">OUR WORKS</h5>
+
+            <div class="card">
+                <div class="row">
+
+                    <div class="col " style="width: 18rem;">
+                        <img src="./images/photo-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">APP UI KIT PRO</p>
+                        </div>
+                    </div>
+
+                    <div class="col " style="width: 18rem;">
+                        <img src="./images/photo-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">VINTAGE POSTER EFFECTS</p>
+                        </div>
+                    </div>
+
+                    <div class="col " style="width: 18rem;">
+                        <img src="./images/photo-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">ECOMERCE LINE ICONS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col" style="width: 18rem;">
+                        <img src="./images/photo-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">IOS7 ICON CONCEPTS</p>
+                        </div>
+                    </div>
+
+                    <div class="col " style="width: 18rem;">
+                        <img src="./images/photo-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">BLUEBOX: FLAT PSD TEMPLATE</p>
+                        </div>
+                    </div>
+
+                    <div class="col " style="width: 18rem;">
+                        <img src="./images/photo-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">IPHONE APP WEBSITE</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about us -->
+    <div class="about-us">
+
+        <div class="container">
+            <h5>ABOUT US</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima nulla officia distinctio iusto animi
+                illum tempora iure, eius expedita repudiandae doloribus vel esse temporibus architecto!</p>
+
+            <div class="row">
+                <div class="col" style="width: 18rem;">
+                    <img src="./images/photo-7.jpg" class="card-img-top" alt="...">
+                    <div class="card-bodyy">
+                        <p class="card-text text-uppercase">JOAN HENRY DOE</p>
+
+                        <a href=""> <img src="./images/icon-sk.png" alt=""> </a>
+                        <a href=""> <img src="./images/icon-drb.png" alt=""> </a>
+                        <a href=""> <img src="./images/icon-tw.png" alt=""> </a>
+                        <a href=""> <img src="./images/icon-gplus.png" alt=""> </a>
+                    </div>
+                </div>
+                <div class="col " style="width: 18rem;">
+                    <img src="./images/photo-8.jpg" class="card-img-top" alt="...">
+                    <div class="card-bodyy">
+                        <p class="card-text text-center text-uppercase">Christropher Charles Linton</p>
+                        <a href=""> <img src="./images/icon-sk.png" alt=""> </a>
+                        <a href=""> <img src="./images/icon-drb.png" alt=""> </a>
+                        <a href=""> <img src="./images/icon-tw.png" alt=""> </a>
+                        <a href=""> <img src="./images/icon-gplus.png" alt=""> </a>
+                    </div>
+                </div>
+                <div class="col " style="width: 18rem;">
+                    <img src="./images/photo-9.jpg" class="card-img-top" alt="...">
+                    <div class="card-bodyy">
+                        <p class="card-text text-center text-uppercase">Lovy Puppy</p>
+                        <a href=""> <img src="./images/icon-sk.png" alt=""> </a>
+                        <a href=""> <img src="./images/icon-drb.png" alt=""> </a>
+                        <a href=""> <img src="./images/icon-tw.png" alt=""> </a>
+                        <a href=""> <img src="./images/icon-gplus.png" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Testimonials -->
+
+    <div class="container">
+        <div class="testmonials">
+            <h3 class="text-uppercase">Testimonials</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In ratione repellendus atque eveniet veritatis,
+                rem temporibus adipisci mollitia doloribus fugiat nisi illum? Esse, adipisci. Eaque ipsum distinctio,
+                temporibus illo impedit, aspernatur veritatis placeat ipsa eligendi, assumenda dicta? Voluptatum, nam
+                quisquam?</p>
+
+            <h5>John Henry Doe, ABC Company, St. Louis</h5>
+        </div>
+    </div>
+
+    <!-- Subscribe -->
+
+    <div class="subscribe">
+        <div class="container">
+            <h5 class="text-uppercase"> Subscribe to our newsletter</h5>
+            <form class="forma">
+                <div class="form-row align-items-center">
+
+                    <div class="col-auto">
+                        <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                        <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                        </div>
+                    </div>
+
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="social-icons">
+                <a href=""> <img src="./images/icon-tw.png" alt="" class="pl-3 rounded-circle"> </a>
+                <a href=""> <img src="./images/icon-fb.png" alt="" class="pl-3"> </a>
+                <a href=""> <img src="./images/icon-pi.png" alt="" class="pl-3"> </a>
+                <a href=""> <img src="./images/icon-ln.png" alt="" class="pl-3"> </a>
+                <a href=""> <img src="./images/icon-gplus.png" alt="" class="pl-3"> </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>email: info@domain.com</p>
+            <p>St. Louis: (123) 456 7890</p>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
